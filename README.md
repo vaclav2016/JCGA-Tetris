@@ -6,14 +6,14 @@ This is a example for JCGA framework - Tetris Video Game.
 
 ## Build
 
-1. You need download JCGA framework and install it to local maven repository:
+You need download JCGA framework and install it to local maven repository:
 
     $ git clone https://github.com/vaclav2016/JCGA
     $ cd JCGA
     $ mvn install
     $ cd ..
 
-2. At second step, You need run Maven to build:
+At second step, You need run Maven to build:
 
     $ git clone https://github.com/vaclav2016/JCGA-Tetris
     $ cd JCGA-Tetris
