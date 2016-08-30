@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>onion</groupId>
+  <artifactId>cga-tetris</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1</version>
+  <name>Tetris Video Game</name>
+  <url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>onion</groupId>
+			<artifactId>cga-engine</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	</dependencies>
+
+<build> 
+	<plugins>
+		<plugin>
+			<artifactId>maven-assembly-plugin</artifactId>
+			<executions>
+				<execution>
+					<phase>package</phase>
+					<goals>
+						<goal>single</goal>
+					</goals>
+					<configuration>
+						<archive>
+							<manifest>
+								<mainClass>Tetris</mainClass>
+							</manifest>
+
+					<manifestEntries>
+						<Build-Jdk>1.1.7</Build-Jdk>
+						<Built-By>anonymous</Built-By>
+						<Created-By>hand</Created-By>
+						<Archiver-Version>pkzip 2.0.9</Archiver-Version>
+					</manifestEntries>
+
+						</archive>
+						<descriptorRefs>
+							<descriptorRef>jar-with-dependencies</descriptorRef>
+						</descriptorRefs>
+					</configuration>
+				</execution>
+			</executions>
+		</plugin> 
+	</plugins>
+</build>
+
+</project>
