@@ -6,16 +6,22 @@ This is a example for JCGA framework - Tetris Video Game.
 
 ## Build
 
-At first, You need download JCGA framework and install it to local maven repository. I mean just run "mvn install".
+1. You need download JCGA framework and install it to local maven repository:
 
-https://github.com/vaclav2016/JCGA
+    $ git clone https://github.com/vaclav2016/JCGA
+    $ cd JCGA
+    $ mvn install
+    $ cd ..
 
-At second step, You need run Maven to build:
+2. At second step, You need run Maven to build:
 
+    $ git clone https://github.com/vaclav2016/JCGA-Tetris
+    $ cd JCGA-Tetris
     $ mvn install
 
 ## Run
 
+    $ cd JCGA-Tetris
     $ java -jar target/cga-tetris-0.0.1-jar-with-dependencies.jar
 
 ## Licensing
