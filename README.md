@@ -16,7 +16,7 @@ At second step, You need run Maven to build:
 
 ## Run
 
-    $ java -jar cga-tetris-0.0.1-jar-with-dependencies.jar
+    $ java -jar target/cga-tetris-0.0.1-jar-with-dependencies.jar
 
 ## Licensing
 
