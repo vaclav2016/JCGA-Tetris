@@ -1,4 +1,4 @@
-# Tetris Video Game in CGA-style graphics
+# Tetris Video Game in CGA-style graphic
 
 This is a example for JCGA framework - Tetris Video Game.
 
