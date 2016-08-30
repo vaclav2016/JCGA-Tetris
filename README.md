@@ -32,6 +32,8 @@ At second step, You clone Tetris repository and build it:
 
 ## Licensing
 
+(с) 2016 Copyright by vaclav2016, https://github.com/vaclav2016/JCGA-Tetris/
+
 Code is licensed under the Boost License, Version 1.0. See each
 repository's licensing information for details and exceptions.
 
