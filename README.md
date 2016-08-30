@@ -6,7 +6,7 @@ Here is example for JCGA framework - Tetris Video Game.
 
 ## Build
 
-At first, You must download JCGA framework and install it to local maven repository (just run mvn install).
+At first, You need download JCGA framework and install it to local maven repository. I mean just run "mvn install".
 
 https://github.com/vaclav2016/JCGA
 
