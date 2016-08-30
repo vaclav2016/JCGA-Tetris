@@ -1,11 +1,11 @@
 # Tetris Video Game in CGA-style graphics
 
 Here is example for JCGA framework - Tetris Video Game.
-https://github.com/vaclav2016/JCGA
 
 ## Build
 
 At first, You must download JCGA framework and install it to local maven repository (just run mvn install).
+
 https://github.com/vaclav2016/JCGA
 
 At second step, You need run Maven to build:
