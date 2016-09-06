@@ -4,7 +4,7 @@ This is a example for JCGA framework - Tetris Video Game.
 
 Features:
 
-* Good perfomance - work at low-end ARM without delay (like Pocket C.H.I.P or Raspberry Pi 1)
+* Good perfomance - work at low-end ARM without delay (like [Pocket C.H.I.P.](http://getchip.com/) and [Raspberry PI 1](https://www.raspberrypi.org/))
 * Onscreen buttons - alow to use touch-screen interface
 
 ![Tetris Video Game](screenshot-tetris.png)
